@@ -1,12 +1,12 @@
 package com.example.counter
 
+import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import androidx.activity.viewModels
-import androidx.appcompat.app.AppCompatActivity
 import androidx.databinding.DataBindingUtil
 import com.example.counter.injection.MainViewModel
-import com.example.injection.R
-import com.example.injection.databinding.ActivityMainBinding
+import com.example.denganhilt.R
+import com.example.denganhilt.databinding.ActivityMainBinding
 import dagger.hilt.android.AndroidEntryPoint
 
 @AndroidEntryPoint
